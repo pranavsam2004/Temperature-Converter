@@ -1,0 +1,119 @@
+/* tempConverterStyles3.css */
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  .header {
+    text-align: center;
+    background-color: lightskyblue;
+    padding: 20px;
+  }
+  
+  .header h1 {
+    color: white;
+    font-size: 30px;
+    margin: 0;
+  }
+  
+  /* Content Styles */
+  .content-intro {
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .content-intro h2 {
+    color: #333;
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  .content-intro p {
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  .content-intro a {
+    color: lightskyblue;
+    text-decoration: none;
+  }
+  
+  .content-intro a:hover {
+    text-decoration: underline;
+  }
+  
+  .content-form {
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .content-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content-form label {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .content-form input[type="text"],
+  .content-form input[type="number"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .content-form input[type="button"] {
+    padding: 10px 20px;
+    background-color: lightskyblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: lightskyblue;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .footer hr {
+    border: none;
+    border-top: 1px solid white;
+    margin: 10px 0;
+  }
+  
+  .footer span {
+    color: white;
+  }
+  
+  .footer a {
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
